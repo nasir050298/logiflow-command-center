@@ -104,7 +104,3 @@ The current version of LogiFlow Command Center is a portfolio/demo project. In f
 ## Security Notice
 
 This project is for educational, portfolio, and demonstration purposes. It is not production-ready without database integration, secure password hashing, input validation, stronger role permissions, audit logs, and deployment hardening.
-
-## Suggested GitHub Description
-
-A full-stack logistics command center built with React, TypeScript, Express, Socket.IO, and Recharts for shipment tracking, fleet management, driver coordination, warehouse operations, route planning, and logistics analytics.
