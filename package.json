@@ -1,0 +1,15 @@
+{
+  "name": "logiflow-command-center",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A full-stack logistics command center for shipments, fleet tracking, warehouses, drivers, deliveries, invoices, and logistics analytics.",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix client && npm install --prefix server",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client && npm run build --prefix server",
+    "start": "npm run start --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
